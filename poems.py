@@ -1,3 +1,3 @@
 import time
 import random
-import 
+import fanfou
