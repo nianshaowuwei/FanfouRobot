@@ -3,7 +3,7 @@ import random
 import fanfou
 import datetime
 import salve
-import a
+import alive
 
 
 
@@ -12,4 +12,4 @@ if __name__ == '__main__':
       now = datatime.datetime.now()
       if now.hour == 8 and now.minute < 1:
         send()
-        what
+        
