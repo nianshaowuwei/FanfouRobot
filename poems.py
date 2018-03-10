@@ -6,7 +6,7 @@ import salve
 import alive
 
 
-#在这里修改为你的
+#在这里修改为你的用户名
 if __name__ == '__main__':
   while True
       now = datatime.datetime.now()
