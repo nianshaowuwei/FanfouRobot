@@ -6,7 +6,7 @@ import salve
 import alive
 
 
-#在这里修改
+#在这里修改为你的
 if __name__ == '__main__':
   while True
       now = datatime.datetime.now()
