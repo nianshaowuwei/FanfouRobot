@@ -6,7 +6,7 @@ import salve
 import alive
 
 
-#请修改为你的
+#请修改为你的consumer
 if __name__ == '__main__':
   while True
       now = datatime.datetime.now()
