@@ -2,11 +2,13 @@ import time
 import random
 import fanfou
 import datetime
-import salve
-import alive
+import shelve
+
 
 
 #请修改为你的consumer
+consumer = {'key':'consumer key', 'secret':'consumer secret'}
+#请
 if __name__ == '__main__':
   while True
       now = datatime.datetime.now()
