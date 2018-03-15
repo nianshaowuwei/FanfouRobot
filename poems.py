@@ -8,7 +8,7 @@ import shelve
 
 #请修改为你的consumer
 consumer = {'key':'consumer key', 'secret':'consumer secret'}
-#请
+## 请修改为你的 ID 和密码
 if __name__ == '__main__':
   while True
       now = datatime.datetime.now()
