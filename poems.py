@@ -10,9 +10,11 @@ import shelve
 consumer = {'key':'consumer key', 'secret':'consumer secret'}
 ## 请修改为你的 ID 和密码
 client = fanfou.XAuth(consumer, 'username', 'password')
+fanfou.bound(client)
 
 
-
+with open('poems.txt', encoding='utf8') as f:
+    poems = f.readlines()
 
 
 
