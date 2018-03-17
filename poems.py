@@ -16,6 +16,9 @@ fanfou.bound(client)
 with open('poems.txt', encoding='utf8') as f:
     poems = f.readlines()
 
+def check():
+    try:
+        resp = client.statuses.mentions()
 
 
 if __name__ == '__main__':
