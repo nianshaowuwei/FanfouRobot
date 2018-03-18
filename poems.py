@@ -19,6 +19,12 @@ with open('poems.txt', encoding='utf8') as f:
 def check():
     try:
         resp = client.statuses.mentions()
+    except:
+        return
+    for item in resp.json():
+        user_id = item['user']['unique_id']
+    if '-join' in item['text']:
+            db[user_id] = item['user']['name']
 
 
 if __name__ == '__main__':
