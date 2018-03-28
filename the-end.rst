@@ -25,7 +25,7 @@
 
 .. image:: image/alipay.png
 
-.. image:: image/tenpay2.jpg
+.. image:: image/tenp
 ::
 
    要是有所得罪请原谅。本是出自一番好意，只是想显点粗浅技艺，那才是我们的初衷。
